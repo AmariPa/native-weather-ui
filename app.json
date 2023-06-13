@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "native-weather-app",
-    "slug": "native-weather-app",
+    "slug": "weather",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b175c6f7-7f52-4694-8e51-3eb7af7925bf"
+      }
+    },
+    "owner": "editormilku"
   }
 }
