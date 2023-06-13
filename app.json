@@ -1,36 +1,33 @@
 {
-  "expo": {
-    "name": "native-weather-app",
-    "slug": "weather",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "b175c6f7-7f52-4694-8e51-3eb7af7925bf"
-      }
-    },
-    "owner": "editormilku"
-  }
+	"expo": {
+		"name": "native-weather-app",
+		"slug": "weather",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/bg.jpg",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "b175c6f7-7f52-4694-8e51-3eb7af7925bf"
+			}
+		},
+		"owner": "editormilku"
+	}
 }
